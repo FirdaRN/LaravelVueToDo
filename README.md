@@ -94,7 +94,7 @@ laravel-vue-todo/
 ### Backend:
 
 * [Laravel 8](https://laravel.com)
-* Passport (untuk autentikasi token API)
+* Sanctum (untuk autentikasi token API)
 * MySQL
 
 ### Frontend:
