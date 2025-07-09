@@ -65,7 +65,7 @@ USER www
 # ENV Settings
 ENV LOG_CHANNEL=stack
 ENV APP_ENV=production
-ENV APP_DEBUG=true
+ENV APP_DEBUG=false
 
 # Start Laravel server
 CMD php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
