@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Http;
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
-Route::middleware('auth:api')->group(function() {
+Route::middleware('auth:sanctum')->group(function() {
     Route::get('/tasks', [TaskController::class, 'index']);
     Route::post('/tasks', [TaskController::class, 'store']);
     Route::put('/tasks/{task}', [TaskController::class, 'update'])->middleware('can:update,task');
