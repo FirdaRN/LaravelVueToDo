@@ -107,3 +107,11 @@ laravel-vue-todo/
 ### UI Template:
 
 * [NiceAdmin Bootstrap Template](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/)
+
+---
+
+## Screenshot
+
+![Register Page](public/assets/img/register.png)
+![Login Page](public/assets/img/login.png)
+![Dashboard](public/assets/img/dashboard.png)
