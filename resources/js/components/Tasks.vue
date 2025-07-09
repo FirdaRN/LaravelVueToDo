@@ -2,9 +2,11 @@
   <div class="container mt-5">
     <div class="alert alert-info mb-4">{{ quote }}</div>
 
-    <h1>Welcome, {{ username }}</h1>
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h1>Welcome, {{ username }}</h1>
+      <button class="btn btn-secondary" @click="logout">Logout</button>
+    </div>
     <h2>My To Do List</h2>
-    <button class="btn btn-secondary mb-3" @click="logout">Logout</button>
 
     <div class="input-group mb-3">
       <input
