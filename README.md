@@ -112,6 +112,14 @@ laravel-vue-todo/
 
 ## Screenshot
 
+### Register Page
+
 ![Register Page](public/assets/img/register.png)
+
+### Login Page
+
 ![Login Page](public/assets/img/login.png)
+
+### Dashboard
+
 ![Dashboard](public/assets/img/dashboard.png)
