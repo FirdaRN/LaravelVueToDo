@@ -123,7 +123,3 @@ laravel-vue-todo/
 ### Dashboard
 
 ![Dashboard](public/assets/img/dashboard.png)
-
----
-
-## 🔗 Link Demo : https://laravel-vue-todo-production.up.railway.app/
